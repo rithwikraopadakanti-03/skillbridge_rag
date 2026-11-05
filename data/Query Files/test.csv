@@ -1,0 +1,51 @@
+query_id,query
+Q0251,"According to the students table, which module number has Waqar Srinivasan (ID: STU0223) reached in their enrolled course?"
+Q0253,"Count the total number of assessment entries (quiz, assignment, project, exam) recorded for Tanisha Singh (ID: STU0138) in the assessments dataset."
+Q0254,"Apply the four-component grading formula (quiz 20%, assignment 30%, project 25%, exam 25%) to compute the composite academic score for Aishwarya Das (ID: STU0309). Report the overall grade."
+Q0255,Compute Nishant Choudhury's (ID: STU0481) attendance rate where lab sessions carry a 1.5x weight multiplier and late arrivals receive half credit. What is their weighted attendance percentage?
+Q0257,"Looking only at quiz-type assessments, calculate the average percentage score (scored/max_score × 100) for student STU0398. What is the quiz average?"
+Q0258,"Given that Yash Kumar (ID: STU0632) is on module 6 of a course with 6 total modules, what is the course completion percentage?"
+Q0259,"Using the strict priority evaluation order from alert_rules.md (check Red conditions first, then Yellow, then Green, else Orange), determine the alert color classification for Dhruv Pillai (ID: STU0527). Encode as Red=1, Yellow=2, Orange=3, Green=4."
+Q0260,"Based on the enrollment date and the expected pace of 1 module every 3 weeks (from progress_milestones.md), classify Ekta Nair's (ID: STU0658) progress status. (On Track=1, Slightly Behind=2, Behind=3, At Risk=4)"
+Q0262,"Using the letter grade mapping from grading_policy.md (F<50, D=50-59, C=60-69, B=70-79, A=80-89, A+=90+), what letter grade does Dhruv Mishra (ID: STU0522) earn? (F=1, D=2, C=3, B=4, A=5, A+=6)"
+Q0264,"The attendance policy mandates a minimum 75% weighted attendance rate. Considering lab=1.5x weighting and late=0.5 credit, does student STU0498 satisfy the 75% minimum attendance requirement? (Yes=1, No=0)"
+Q0267,"Compare the two assessment categories for Chaitanya Gupta (ID: STU0191): compute the exam-type average and the quiz-type average separately, then report the difference between exam average and quiz average (exam minus quiz)."
+Q0268,"Identify Charvi Agarwal's (ID: STU0226) weakest assessment component (lowest average). If the worst-performing component were excluded entirely and the remaining three components were re-weighted proportionally to sum to 100%, what would the normalized grade be?"
+Q0270,"For every assessment Madhav Patel (ID: STU0110) has submitted, compute (submitted_date - due_date) in days. What is the average submission delay across all their assessments? (positive=late, negative=early)"
+Q0272,"Compute two attendance metrics for Lavanya Patel (ID: STU0187): (1) the session-type-weighted version (lab=1.5x, late=0.5 credit) and (2) the simple unweighted version (all sessions equal, late=0.5). What is the difference between weighted and unweighted attendance? (weighted minus unweighted)"
+Q0273,"Hypothetically, if Pranav Banerjee's (ID: STU0470) attendance were recalculated to be exactly 80% while their grade remained unchanged, would the student's classification under alert_rules.md shift? If Pranav Banerjee's (ID: STU0470) weighted attendance were exactly 80%, would their alert color change from current? (Yes=1, No=0)"
+Q0275,"Consider a hypothetical scenario: Vivek Rao's (ID: STU0373) composite grade is boosted by 10 percentage points while attendance stays the same. Re-evaluate the alert classification. Would the alert color change from the current status if Vivek Rao's (ID: STU0373) grade increased by 10 points? (Yes=1, No=0)"
+Q0278,"The expected module count is computed as weeks_since_enrollment / 3 (capped at total modules). Each module behind means 3 weeks of delay. How many weeks behind schedule is student STU0361? (modules behind × 3 weeks per module, 0 if on track or ahead)"
+Q0279,"For every assessment Dhruv Rao (ID: STU0426) has submitted, compute (submitted_date - due_date) in days. What is the average submission delay across all their assessments? (positive=late, negative=early)"
+Q0281,"Across every student record in BATCH-2023-A, compute each student's four-component composite grade, then take the mean. What is the average grade of all students in BATCH-2023-A?"
+Q0282,Apply the alert classification rules (from alert_rules.md) to each student in BATCH-2023-B. How many students in BATCH-2023-B have Red alert status?
+Q0284,Classify each student in BATCH-2024-B using the alert rules (Red/Yellow/Orange/Green). What percentage of students in BATCH-2024-B have Green alert status?
+Q0287,"Among all students enrolled in Responsive Web Design, count how many have a composite grade (per the four-component formula) that reaches or exceeds the B-grade boundary. How many students in Responsive Web Design have a grade of 70 or above?"
+Q0293,"Among all students enrolled in Data Science with Python, count how many have a composite grade (per the four-component formula) that reaches or exceeds the B-grade boundary. How many students in Data Science with Python have a grade of 70 or above?"
+Q0294,"In BATCH-2024-A, identify students whose composite grade falls below their course-specific passing threshold. For these failing students, what is the average weighted attendance of failing students? (0 if none failing)"
+Q0296,"Compute the weighted attendance (lab=1.5x, late=0.5) for every student in Java Programming. How many students in Java Programming have weighted attendance below 60%?"
+Q0297,"For C Programming (passing grade = 50), find all students below this threshold. Compute the average shortfall (passing_grade minus actual grade) among these students. What is the average grade deficit among failing students in C Programming? (0 if none)"
+Q0300,"Holding quiz, assignment, and project averages fixed, what is the minimum exam average Akash Kumar (ID: STU0697) would need to achieve a B grade (70 or above) per the grading formula? Report the minimum exam score for B grade."
+Q0301,"The expected module count = min(total_modules, floor(weeks_since_enrollment / 3)). Janvi Menon (ID: STU0462) is currently on module 5. How many modules ahead or behind expected pace is Janvi Menon (ID: STU0462)? (positive=ahead, negative=behind)"
+Q0302,"The Green alert requires grade ≥ 75 AND weighted attendance ≥ 75. Ignoring attendance, how many grade points does Bhavya Agarwal (ID: STU0162) need to gain to reach the Green alert grade threshold of 75? (0 if already there)"
+Q0304,"For distinction status (A+ = 90+), rearrange the grading formula to solve for the required exam component. What minimum exam score does student STU0514 need to achieve A+ (distinction, 90 or above)?"
+Q0305,The Red alert is triggered when weighted attendance drops below 60%. How many attendance percentage points does student STU0234 need to gain to escape the Red alert attendance threshold of 60%? (0 if already above)
+Q0306,"If quiz, project, and exam averages remain unchanged, rearrange the grading formula to solve for the minimum assignment average that would bring Uday Agarwal's (ID: STU0022) overall grade to at least 50 (the passing grade). What minimum assignment average does student STU0022 need to pass?"
+Q0308,Each new lecture session attended adds 1.0 to the weighted numerator while adding 1.0 to the denominator. How many additional lecture sessions (present) does Mansi Iyer (ID: STU0463) need to attend (as present) to bring their weighted attendance to at least 75%? (0 if already at or above 75%)
+Q0315,"If quiz, project, and exam averages remain unchanged, rearrange the grading formula to solve for the minimum assignment average that would bring Falguni Sharma's (ID: STU0097) overall grade to at least 55 (the passing grade). What minimum assignment average does student STU0097 need to pass?"
+Q0318,"In SQL Fundamentals, find the student with the highest composite grade (join students → assessments → grade formula). Then look up that student's weighted attendance from their attendance records. What is the weighted attendance of the highest-grade student in SQL Fundamentals?"
+Q0321,"Cross-filter: from BATCH-2023-A, select only students whose course_enrolled field matches JavaScript Essentials. Compute the mean composite grade of this subset. What is the average grade of BATCH-2023-A students enrolled in JavaScript Essentials? (0 if none)"
+Q0324,"In Express JS, find the student with the highest composite grade (join students → assessments → grade formula). Then look up that student's weighted attendance from their attendance records. What is the weighted attendance of the highest-grade student in Express JS?"
+Q0328,Join mentors (department='Data Science') → students (via mentor_id) → compute alert status for each. How many Red-alert students are mentored by someone in the Data Science department?
+Q0329,"In BATCH-2023-A, filter to students whose weighted attendance ≥ 75%, then find the maximum composite grade among them. What is the highest grade in BATCH-2023-A among students meeting the 75% attendance requirement? (0 if none)"
+Q0333,What is the body mass index recorded in the health screening for Chirag Agarwal (ID: STU0172)?
+Q0334,How many campus events has Pallavi Singh (ID: STU0473) attended this academic year?
+Q0336,What is the discipline record count for Bhavya Sharma (ID: STU0265)?
+Q0337,What clubs is Soham Singh (ID: STU0643) a member of on campus?
+Q0341,What prizes has Falguni Banerjee (ID: STU0307) won in inter-college technical competitions?
+Q0342,What is the total screen time (hours) of Nikhil Banerjee (ID: STU0407) on the learning platform this month?
+Q0343,What is the peer review score assigned to Vivek Srinivasan (ID: STU0045) by their project teammates?
+Q0345,How many books has Mohan Singh (ID: STU0114) borrowed from the institute library?
+Q0346,What is the sleep schedule (average hours) tracked for Deeksha Banerjee (ID: STU0544)?
+Q0347,What is the typing speed (WPM) recorded for Chirag Gupta (ID: STU0302) during the coding assessment?
+Q0350,How many friends does Vaishnavi Nair (ID: STU0216) have on the platform's social network?

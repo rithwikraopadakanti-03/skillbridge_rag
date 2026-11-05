@@ -1,0 +1,101 @@
+query_id,query,answerable,lookup_value,rule_value,final_answer
+Q0002,How many total modules does JavaScript Essentials have?,1,8.0,0.0,8.0
+Q0004,How many assessments has student STU0629 completed?,1,24.0,0.0,24.0
+Q0010,How many attendance records does student STU0733 have?,1,32.0,0.0,32.0
+Q0011,What is the current module of Soham Singh (ID: STU0643)?,1,10.0,0.0,10.0
+Q0013,What is the passing grade for Soft Skills & Communication?,1,50.0,0.0,50.0
+Q0015,How many attendance records does student STU0615 have?,1,20.0,0.0,20.0
+Q0018,What is the passing grade for JavaScript Essentials?,1,50.0,0.0,50.0
+Q0019,What is the overall grade of Arjun Singh (ID: STU0410)?,1,62.64,0.0,62.64
+Q0023,What is the course completion percentage for student STU0601?,1,100.0,0.0,100.0
+Q0025,What is the lab session attendance percentage for student STU0227?,1,100.0,0.0,100.0
+Q0027,What is the weighted attendance percentage of Bhargav Srinivasan (ID: STU0003)?,1,75.53,0.0,75.53
+Q0030,What is the course completion percentage for student STU0163?,1,100.0,0.0,100.0
+Q0031,What is the simple (unweighted) attendance percentage of Akash Banerjee (ID: STU0173)?,1,82.95,0.0,82.95
+Q0032,What is the lab session attendance percentage for student STU0293?,1,76.67,0.0,76.67
+Q0033,What is the overall grade of Megha Kumar (ID: STU0018)?,1,66.34,0.0,66.34
+Q0034,What is the weighted attendance percentage of Aishwarya Joshi (ID: STU0423)?,1,86.59,0.0,86.59
+Q0036,What is the assignment average (percentage) for Soham Kumar (ID: STU0753)?,1,63.3,0.0,63.3
+Q0037,What is the course completion percentage for student STU0578?,1,100.0,0.0,100.0
+Q0045,"What is the progress status of student STU0323? (On Track=1, Slightly Behind=2, Behind=3, At Risk=4)",1,8.0,8.0,1.0
+Q0047,"What letter grade does student STU0065 have? (F=1, D=2, C=3, B=4, A=5, A+=6)",1,71.81,0.0,4.0
+Q0048,"What is the parent call priority for Isha Gupta (ID: STU0634)? (Immediate=1, High=2, Medium=3, Low=4)",1,2.0,0.0,2.0
+Q0049,"Does student STU0042 meet the 75% minimum attendance requirement? (Yes=1, No=0)",1,69.44,75.0,0.0
+Q0054,"What is the progress status of student STU0674? (On Track=1, Slightly Behind=2, Behind=3, At Risk=4)",1,8.0,8.0,1.0
+Q0055,"Has Yashika Banerjee (ID: STU0089) passed their course? (Yes=1, No=0)",1,73.34,50.0,1.0
+Q0059,"How many grade points above or below passing is Chaitanya Singh (ID: STU0133)? (positive=above, negative=below)",1,60.54,50.0,10.54
+Q0061,"Has student STU0662 triggered a parent call due to consecutive absences (3+ in a row)? (Yes=1, No=0)",1,1.0,3.0,0.0
+Q0063,"What is the progress status of student STU0109? (On Track=1, Slightly Behind=2, Behind=3, At Risk=4)",1,10.0,10.0,1.0
+Q0064,"Has Bhumika Singh (ID: STU0242) passed their course? (Yes=1, No=0)",1,58.35,50.0,1.0
+Q0067,"Does student STU0795 meet the 75% minimum attendance requirement? (Yes=1, No=0)",1,76.27,75.0,1.0
+Q0068,"How many grade points above or below passing is Madhav Nair (ID: STU0258)? (positive=above, negative=below)",1,68.96,50.0,18.96
+Q0070,"Has student STU0185 triggered a parent call due to consecutive absences (3+ in a row)? (Yes=1, No=0)",1,2.0,3.0,0.0
+Q0077,"How many weeks behind schedule is student STU0618? (modules behind × 3 weeks per module, 0 if on track or ahead)",1,0.0,3.0,0.0
+Q0081,"If Mohan Das's (ID: STU0508) weighted attendance were exactly 80%, would their alert color change from current? (Yes=1, No=0)",1,64.39,81.25,0.0
+Q0084,What is the difference between exam average and quiz average for student STU0504? (exam minus quiz),1,48.5,70.93,-22.43
+Q0085,"If the worst-performing component were excluded, what would student STU0690's normalized grade be? (remaining components re-weighted to 100%)",1,66.33,60.3,68.34
+Q0088,How many grade points does student STU0261 need to reach the next letter grade threshold?,1,63.51,70.0,6.49
+Q0089,What is the difference between weighted and unweighted attendance for Omkar Verma (ID: STU0682)? (weighted minus unweighted),1,72.99,75.68,-2.69
+Q0093,What is the difference between exam average and quiz average for student STU0661? (exam minus quiz),1,43.0,59.36,-16.36
+Q0096,"What is the average submission delay (in days) for Vaishnavi Nair (ID: STU0216)? (positive=late, negative=early)",1,0.4,0.0,0.4
+Q0097,How many grade points does student STU0269 need to reach the next letter grade threshold?,1,61.1,70.0,8.9
+Q0100,How much higher or lower is student STU0007's project average compared to their overall grade? (project_avg minus grade),1,60.6,53.63,6.97
+Q0102,What is the difference between exam average and quiz average for student STU0317? (exam minus quiz),1,61.4,72.64,-11.24
+Q0103,"If the worst-performing component were excluded, what would student STU0434's normalized grade be? (remaining components re-weighted to 100%)",1,73.17,59.5,76.58
+Q0104,What is the average grade of all students in BATCH-2023-A?,1,64.73,0.0,64.73
+Q0105,How many students in BATCH-2023-B have Red alert status?,1,2.0,0.0,2.0
+Q0107,How many students are in BATCH-2024-B?,1,200.0,0.0,200.0
+Q0109,What is the average course completion percentage for BATCH-2023-B?,1,100.0,0.0,100.0
+Q0118,What percentage of students in Data Structures & Algorithms are currently passing?,1,36.0,37.0,97.3
+Q0119,What is the average course completion percentage for BATCH-2024-B?,1,86.98,0.0,86.98
+Q0121,What percentage of students in BATCH-2023-B have Green alert status?,1,3.0,200.0,1.5
+Q0122,What is the average grade of students mentored by Ananya Gupta (ID: MNT019)?,1,65.54,0.0,65.54
+Q0124,What is the average grade of all students in BATCH-2023-A?,1,64.73,0.0,64.73
+Q0126,What is the average weighted attendance of students in HTML & CSS Basics?,1,78.16,0.0,78.16
+Q0127,How many students are in BATCH-2024-B?,1,200.0,0.0,200.0
+Q0129,What is the average grade of Red-alert students in BATCH-2023-A? (0 if none),1,7.0,0.0,51.6
+Q0131,What is the average weighted attendance of failing students in BATCH-2024-A? (0 if none failing),1,2.0,0.0,82.38
+Q0132,What percentage of students in BATCH-2024-B have 'At Risk' progress status?,1,0.0,200.0,0.0
+Q0136,How many students in Express JS have a grade of 70 or above?,1,8.0,70.0,8.0
+Q0138,What percentage of students in BATCH-2023-B have 'At Risk' progress status?,1,0.0,200.0,0.0
+Q0141,What is the average grade of Red-alert students in BATCH-2023-A? (0 if none),1,7.0,0.0,51.6
+Q0148,How many additional lecture sessions (present) does Zara Rao (ID: STU0512) need to reach 75% weighted attendance?,1,80.95,75.0,0.0
+Q0154,How many attendance percentage points does student STU0053 need to gain to escape the Red alert attendance threshold of 60%? (0 if already above),1,85.33,60.0,0.0
+Q0155,"What minimum assignment average does student STU0371 need to pass, assuming other components stay the same?",1,43.95,50.0,20.17
+Q0157,How many additional lecture sessions (present) does Soham Hegde (ID: STU0691) need to reach 75% weighted attendance?,1,78.72,75.0,0.0
+Q0158,What minimum exam score does student STU0529 need to achieve a B grade (70 or above)?,1,45.68,70.0,97.26
+Q0160,How many grade points does Tanisha Rao (ID: STU0339) need to reach the Green alert grade threshold of 75?,1,78.86,75.0,0.0
+Q0164,"What minimum assignment average does student STU0393 need to pass, assuming other components stay the same?",1,43.51,50.0,21.62
+Q0171,"What minimum exam score does student STU0433 need to achieve A+ (distinction, 90 or above)?",1,47.86,90.0,100.0
+Q0172,How many attendance percentage points does student STU0141 need to gain to escape the Red alert attendance threshold of 60%? (0 if already above),1,82.61,60.0,0.0
+Q0173,"What minimum assignment average does student STU0148 need to pass, assuming other components stay the same?",1,41.47,50.0,28.44
+Q0175,How many additional lecture sessions (present) does Gagandeep Joshi (ID: STU0545) need to reach 75% weighted attendance?,1,73.42,75.0,4.0
+Q0177,What is the weighted attendance of the highest-grade student in Python Fundamentals?,1,77.97,0.0,80.11
+Q0180,What is the average grade of BATCH-2024-B students enrolled in Responsive Web Design? (0 if none),1,6.0,0.0,67.44
+Q0182,What is the highest grade in BATCH-2023-B among students meeting the 75% attendance requirement? (0 if none),1,127.0,75.0,83.25
+Q0184,What is the grade of the student with the lowest weighted attendance in BATCH-2024-B?,1,36.67,0.0,66.1
+Q0185,How many Red-alert students does the mentor with the most Red-alert students have?,1,4.0,0.0,4.0
+Q0190,What is the grade of the student with the lowest weighted attendance in BATCH-2023-B?,1,57.33,0.0,67.56
+Q0196,What feedback did Varun Kumar (ID: STU0504) give in the last course survey?,0,-1.0,-1.0,-1.0
+Q0201,What is the 12th standard percentage of Daksh Agarwal?,0,-1.0,-1.0,-1.0
+Q0204,What is the emergency contact number for Zara Joshi?,0,-1.0,-1.0,-1.0
+Q0206,How many internship offers has Waqar Nair (ID: STU0759) received?,0,-1.0,-1.0,-1.0
+Q0207,What is the parent's occupation of Kriti Iyer?,0,-1.0,-1.0,-1.0
+Q0213,What is the peer review score of Bhumika Verma?,0,-1.0,-1.0,-1.0
+Q0215,What is the CGPA of Soham Gupta in semester 1?,0,-1.0,-1.0,-1.0
+Q0217,What is the hostel room number of Farhan Banerjee (ID: STU0607)?,0,-1.0,-1.0,-1.0
+Q0220,How many job applications has Jayant Menon (ID: STU0085) submitted?,0,-1.0,-1.0,-1.0
+Q0221,What is the LinkedIn profile URL of Neha Menon?,0,-1.0,-1.0,-1.0
+Q0222,What time does Tanisha Patel (ID: STU0683) usually log in to the platform?,0,-1.0,-1.0,-1.0
+Q0223,What is the mental health assessment score of Trisha Menon (ID: STU0130)?,0,-1.0,-1.0,-1.0
+Q0225,How many siblings does Diya Nair (ID: STU0361) have?,0,-1.0,-1.0,-1.0
+Q0229,Does Esha Mishra have a laptop or does the institute provide one?,0,-1.0,-1.0,-1.0
+Q0232,What is the weighted attendance percentage of Aditya Joshi (ID: STU0383)?,1,81.91,0.0,81.91
+Q0233,"Has Gauri Rao (ID: STU0394) passed their course? (Yes=1, No=0)",1,71.38,55.0,1.0
+Q0234,"What is the alert color for Ojasvi Rao (ID: STU0367)? (Red=1, Yellow=2, Orange=3, Green=4)",1,68.86,79.0,3.0
+Q0237,What is the weighted attendance percentage of Pallavi Nair (ID: STU0709)?,1,77.36,0.0,77.36
+Q0239,"What is the alert color for Ojasvi Verma (ID: STU0238)? (Red=1, Yellow=2, Orange=3, Green=4)",1,64.7,71.74,2.0
+Q0242,What is the weighted attendance percentage of Aditya Menon (ID: STU0375)?,1,63.33,0.0,63.33
+Q0243,"Has Pranav Joshi (ID: STU0727) passed their course? (Yes=1, No=0)",1,72.08,50.0,1.0
+Q0247,What is the weighted attendance percentage of Tanya Agarwal (ID: STU0161)?,1,77.66,0.0,77.66
+Q0249,"What is the alert color for Aditya Rao (ID: STU0438)? (Red=1, Yellow=2, Orange=3, Green=4)",1,68.61,68.03,2.0

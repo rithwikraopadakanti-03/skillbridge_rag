@@ -1,0 +1,4 @@
+streamlit>=1.35
+pandas
+numpy
+openai   # optional: only for the LLM fallback in the sidebar

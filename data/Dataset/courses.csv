@@ -1,0 +1,21 @@
+course_id,course_name,total_modules,total_sessions,passing_grade
+CRS001,Python Fundamentals,8,40,50
+CRS002,SQL Fundamentals,6,30,50
+CRS003,HTML & CSS Basics,5,25,50
+CRS004,Responsive Web Design,6,30,50
+CRS005,JavaScript Essentials,8,40,50
+CRS006,React JS,10,50,50
+CRS007,Node JS,8,40,50
+CRS008,Express JS,6,30,50
+CRS009,Full Stack Development,12,60,55
+CRS010,Data Science with Python,10,50,55
+CRS011,Machine Learning Foundations,10,50,55
+CRS012,Deep Learning,8,40,55
+CRS013,Java Programming,8,40,50
+CRS014,C Programming,6,30,50
+CRS015,Data Structures & Algorithms,10,50,55
+CRS016,Database Management Systems,6,30,50
+CRS017,Cloud Computing Basics,6,30,50
+CRS018,DevOps Fundamentals,8,40,55
+CRS019,Cyber Security Essentials,6,30,50
+CRS020,Soft Skills & Communication,4,20,50
