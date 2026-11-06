@@ -1,4 +1,3 @@
-import json, re, os
 import pandas as pd
 import streamlit as st
 import engine as E
@@ -33,30 +32,8 @@ def show_result(query, res):
     c3.metric("final_answer", f"{res['final_answer']:.2f}")
     if label: st.success(f"Answer: **{label}**")
 
-def llm_fallback(query, key):
-    from openai import OpenAI
-    client = OpenAI(api_key=key, base_url="https://api.groq.com/openai/v1")
-    tools = [{"type": "function", "function": {"name": "get_student_metrics", "description": "Policy-computed metrics for one student",
-              "parameters": {"type": "object", "properties": {"student_id": {"type": "string"}}, "required": ["student_id"]}}}]
-    sys = ("Answer academic-performance questions using the tool. Reference date 2025-01-15. "
-           "Reply briefly in plain text; say so if the data cannot answer the question.")
-    msgs = [{"role": "system", "content": sys}, {"role": "user", "content": query}]
-    for _ in range(4):
-        r = client.chat.completions.create(model="openai/gpt-oss-120b", messages=msgs, tools=tools, tool_choice="auto")
-        m = r.choices[0].message
-        if not m.tool_calls: return m.content
-        msgs.append({"role": "assistant", "content": m.content or "", "tool_calls": [
-            {"id": t.id, "type": "function", "function": {"name": t.function.name, "arguments": t.function.arguments}} for t in m.tool_calls]})
-        for t in m.tool_calls:
-            sid = json.loads(t.function.arguments)["student_id"]
-            out = E.student_metrics(sid) if sid in E.S.index else {"error": "unknown student"}
-            msgs.append({"role": "tool", "tool_call_id": t.id, "content": json.dumps(out, default=float)})
-    return "No final answer produced."
-
 st.sidebar.title("🎓 SkillBridge")
 page = st.sidebar.radio("Page", ["Ask a question", "Student lookup", "Batch / course dashboard", "Run test set"])
-groq_key = st.sidebar.text_input("Groq API key (optional fallback)", type="password",
-                                 value=os.environ.get("GROQ_API_KEY", ""))
 st.sidebar.caption("Reference date: 2025-01-15")
 
 if page == "Ask a question":
@@ -68,13 +45,7 @@ if page == "Ask a question":
     ex = st.selectbox("Examples", [""] + examples)
     q = st.text_area("Your question", value=ex, height=90)
     if st.button("Answer", type="primary") and q.strip():
-        res = E.solve(q)
-        if res is None and groq_key:
-            with st.spinner("Rules didn't match; asking the LLM agent..."):
-                try: st.info(llm_fallback(q, groq_key))
-                except Exception as e: st.error(f"LLM fallback failed: {e}")
-        else:
-            show_result(q, res)
+        show_result(q, E.solve(q))
     with st.expander("How lookup_value / rule_value work"):
         st.markdown("Plain lookups: `lookup = final`, `rule = 0`. Rule questions: `lookup` is the raw metric "
                     "(grade, attendance...), `rule` is the policy threshold or second metric, `final` is the result. "
